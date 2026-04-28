@@ -22,13 +22,10 @@
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 30px;
       margin-top: 20px;
       margin-bottom: 10px;
-    }
-
-    h2 {
-      margin: 0;
+      line-height: 1.1;
     }
 
     p {
@@ -38,29 +35,31 @@
     .hero img,
     .grid img {
       width: 100%;
-      border-radius: 15px;
+      border-radius: 16px;
       display: block;
-    }
-
-    .hero {
-      margin-top: 10px;
     }
 
     .price-box {
       background: white;
-      padding: 14px;
-      margin-top: 12px;
-      border-radius: 12px;
+      padding: 15px;
+      margin-top: 14px;
+      border-radius: 14px;
+      border: 1px solid #eaded8;
     }
 
     .highlight {
       border: 2px solid #5c3b2e;
     }
 
+    .offer-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
     .btn {
       background: #5c3b2e;
       color: white;
-      padding: 12px;
+      padding: 13px;
       border-radius: 10px;
       text-align: center;
       text-decoration: none;
@@ -69,9 +68,35 @@
       font-weight: bold;
     }
 
+    .btn-secondary {
+      background: #fffaf7;
+      color: #5c3b2e;
+      border: 1px solid #5c3b2e;
+    }
+
     .trust {
-      margin-top: 18px;
+      margin-top: 16px;
       font-size: 14px;
+      color: #6b5148;
+    }
+
+    .payment-card {
+      margin-top: 18px;
+      background: #fffaf7;
+      border: 1px solid #eaded8;
+      border-radius: 16px;
+      padding: 15px;
+    }
+
+    .payment-card h3 {
+      margin-top: 0;
+      margin-bottom: 6px;
+    }
+
+    .payment-icons {
+      font-size: 14px;
+      color: #6b5148;
+      margin-top: 6px;
     }
 
     .grid {
@@ -90,27 +115,36 @@
 </header>
 
 <div class="hero">
-  <img src="https://i.imgur.com/6KzQYgR.jpeg" alt="PocketMiniBook hero image">
+  <img src="https://i.imgur.com/6KzQYgR.jpeg" alt="PocketMiniBook collection">
 
   <h1>The cutest tiny books you didn’t know you needed.</h1>
   <p>Tiny aesthetic books made for creativity, gifts and satisfying content.</p>
 
-  <div class="price-box">
-    <strong>1 Book — €2.99</strong>
-    <a href="https://paypal.me/SKGRI/2.99" class="btn">Buy 1 Book</a>
+  <div class="payment-card">
+    <h3>Secure Checkout</h3>
+    <p>Pay by card or PayPal. Fast, secure and simple.</p>
+    <div class="payment-icons">Visa • Mastercard • PayPal</div>
   </div>
 
   <div class="price-box">
-    <strong>Pack of 5 — €9.99</strong>
-    <a href="https://paypal.me/SKGRI/9.99" class="btn">Buy Pack of 5</a>
+    <div class="offer-title">1 Book — €2.99</div>
+    <a href="https://paypal.me/SKGRI/2.99" class="btn">Pay by Card — €2.99</a>
+    <a href="https://paypal.me/SKGRI/2.99" class="btn btn-secondary">Pay with PayPal</a>
+  </div>
+
+  <div class="price-box">
+    <div class="offer-title">Pack of 5 — €9.99</div>
+    <a href="https://paypal.me/SKGRI/9.99" class="btn">Pay by Card — €9.99</a>
+    <a href="https://paypal.me/SKGRI/9.99" class="btn btn-secondary">Pay with PayPal</a>
   </div>
 
   <div class="price-box highlight">
-    <strong>Pack of 10 🔥 — €14.90 (Best value)</strong>
-    <a href="https://paypal.me/SKGRI/14.90" class="btn">Buy Pack of 10</a>
+    <div class="offer-title">Pack of 10 🔥 — €14.90 — Best Value</div>
+    <a href="https://paypal.me/SKGRI/14.90" class="btn">Pay by Card — €14.90</a>
+    <a href="https://paypal.me/SKGRI/14.90" class="btn btn-secondary">Pay with PayPal</a>
   </div>
 
-  <p class="trust">Secure checkout powered by PayPal (card accepted)</p>
+  <p class="trust">Secure checkout powered by PayPal. Card payment availability may depend on country and device.</p>
 </div>
 
 <div class="grid">
@@ -121,8 +155,9 @@
 
 <div class="section">
   <h3>FAQ</h3>
-  <p><b>What can I use it for?</b><br>Journaling, gifts, scrapbooking.</p>
-  <p><b>Shipping time?</b><br>7–12 days</p>
+  <p><b>What can I use it for?</b><br>Journaling, gifts, scrapbooking and creative content.</p>
+  <p><b>Shipping time?</b><br>7–12 days.</p>
+  <p><b>How do I pay?</b><br>You can pay securely by card or with PayPal.</p>
 </div>
 
   </div>
